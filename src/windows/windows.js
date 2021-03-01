@@ -19,7 +19,6 @@ exports.createTimerWindow = () => {
     height: 90,
     resizable: false,
     alwaysOnTop: timerAlwaysOnTop,
-    focusable: false,
     frame: false,
     icon: path.join(__dirname, '/../../src/windows/img/icon.png')
   })
