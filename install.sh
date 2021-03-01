@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+sudo apt install npm libgconf2-dev
+
 npm run build-linux
 
 killall -q mob-timer || true
